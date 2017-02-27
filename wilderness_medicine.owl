@@ -1,0 +1,1326 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#"
+     xml:base="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Abdominal_pain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Abdominal_pain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Pain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Activity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Risk_Factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Administer_antivenin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Administer_antivenin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Administer_oxygen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Administer_oxygen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Adult -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Adult">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Age"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Age -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Age">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Risk_Factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Agonizing_muscle_spasm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Agonizing_muscle_spasm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Pain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Air_embolism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Air_embolism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Diving"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Air_temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Air_temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Environmental_Factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Alert -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Alert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Mental_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Altered_or_impaired -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Altered_or_impaired">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Mental_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Altitude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Altitude">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Dysbarism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Altitude_sickness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Altitude_sickness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Altitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Animal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Animal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Apply_vinegar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Apply_vinegar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Arrhythmia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Arrhythmia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Pulse"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Arthritis_of_joints -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Arthritis_of_joints">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Pain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Assessments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Assessments"/>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Avoid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Avoid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Bandage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Bandage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Black_Widow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Black_Widow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Spider"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Blisters -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Blisters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Observable_qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Blotching -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Blotching">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Skin_color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Blue_color -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Blue_color">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Skin_color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Body_Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Body_Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Observable_qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Brown_Recluse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Brown_Recluse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Spider"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Burns -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Burns">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Ill"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#CPR -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#CPR">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cardiac_arrest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cardiac_arrest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Injury"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Chest_pain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Chest_pain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Pain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Chest_tightness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Chest_tightness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Observable_qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Clear_airway -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Clear_airway">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cold -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cold">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Air_temperature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cold_related -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cold_related">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Environmental"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Contact_with_warm_objects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Contact_with_warm_objects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rewarm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cool_down -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cool_down">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cool_spray_or_fan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cool_spray_or_fan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cool_down"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Copperheads -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Copperheads">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Pit_Vipers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Coral_Snakes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Coral_Snakes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Snake"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cottonmouths -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cottonmouths">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Pit_Vipers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Crackles_in_at_least_one_lung -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Crackles_in_at_least_one_lung">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Observable_qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Decompression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Decompression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Diving"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Dehydration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Dehydration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Nutrition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Diabetes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Diabetes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Ill"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Difficulty_with_vision -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Difficulty_with_vision">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Observable_qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Diving -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Diving">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Dysbarism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Diving_ascent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Diving_ascent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Dizziness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Dizziness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Observable_qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Drowning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Drowning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Injury"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Dysbarism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Dysbarism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Injury"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Elderly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Elderly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Age"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Envenomation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Envenomation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Injury"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Environmental -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Environmental">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Injury"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Environmental_Factor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Environmental_Factor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Risk_Factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Extreme_weakness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Extreme_weakness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Mobility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Feeling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Feeling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Observable_qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Fever -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Fever">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Observable_qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Fit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Fit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Physical_fitness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Fresh_water_or_wet_sand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Fresh_water_or_wet_sand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Avoid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Frostbite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Frostbite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Local_Cold"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Frostnip -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Frostnip">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Local_Cold"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Gamow_bag -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Gamow_bag">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Recompression"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Gangrene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Gangrene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Local_Cold"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Gently -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Gently">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rewarm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Give_fluids -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Give_fluids">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cool_down"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Head_injury -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Head_injury">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Ill"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Heat_Stroke -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Heat_Stroke">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Heat_related"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Heat_cramps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Heat_cramps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Heat_related"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Heat_exhaustion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Heat_exhaustion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Heat_related"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Heat_exposure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Heat_exposure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Heat_related"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Heat_related -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Heat_related">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Environmental"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#High -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#High">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Body_Temperature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#High_altitude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#High_altitude">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Risk_Factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#High_altitude_pulmonary_edema -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#High_altitude_pulmonary_edema">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Altitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#High_humidity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#High_humidity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Humidity_level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#High_respiration_rate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#High_respiration_rate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Respiration_rate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Air_temperature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Humidity_level -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Humidity_level">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Environmental_Factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hymenoptera -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hymenoptera">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hymenoptera_Strings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hymenoptera_Strings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Envenomation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hypotension -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hypotension">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Pulse"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hypothermia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hypothermia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cold_related"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Ill -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Ill">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Physical_fitness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Immersion_Foot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Immersion_Foot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Local_Cold"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Infant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Infant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Age"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Inflammation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Inflammation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Observable_qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Injury -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Injury"/>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Insomnia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Insomnia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Observable_qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Jellyfish -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Jellyfish">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Jellyfish_Stings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Jellyfish_Stings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Envenomation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Joint_pain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Joint_pain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Pain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Lay_down -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Lay_down">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Left_lateral_recumbent_position -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Left_lateral_recumbent_position">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Local_Cold -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Local_Cold">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cold_related"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Loosen_clothing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Loosen_clothing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cool_down"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Loss_of_balance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Loss_of_balance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Mobility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Loss_of_coordination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Loss_of_coordination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Mobility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Loss_of_sensation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Loss_of_sensation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Feeling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Low -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Low">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Body_Temperature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Low_caloric_consumption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Low_caloric_consumption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Nutrition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Low_heart_rate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Low_heart_rate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Pulse"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Low_respiration_rate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Low_respiration_rate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Respiration_rate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Lyme_disease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Lyme_disease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Tick_bites"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Medication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Medication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Risk_Factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Mental_state -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Mental_state">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Observable_qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Mobility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Mobility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Observable_qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Nausea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Nausea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Observable_qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Normal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Normal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Body_Temperature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Normal_humidity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Normal_humidity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Humidity_level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Normal_sensation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Normal_sensation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Feeling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Nutrition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Nutrition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Risk_Factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Observable_qualities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Observable_qualities"/>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Other -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Other">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Spider"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Pain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Pain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Observable_qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Painless_rash -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Painless_rash">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Skin_color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Paralysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Paralysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Observable_qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Paralysis_of_eye_movement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Paralysis_of_eye_movement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Paralysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Perforated_tympanic_membrane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Perforated_tympanic_membrane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Diving"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Physical_fitness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Physical_fitness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Risk_Factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Pit_Vipers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Pit_Vipers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Snake"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Pulse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Pulse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Observable_qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rattlesnakes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rattlesnakes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Pit_Vipers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Recompression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Recompression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Red_color -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Red_color">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Skin_color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Red_lession -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Red_lession">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Skin_color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Remove_from_cold -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Remove_from_cold">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rewarm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Remove_from_heat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Remove_from_heat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cool_down"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Remove_wet_clothing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Remove_wet_clothing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rewarm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rescue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rescue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Environmental_Factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Respiration_rate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Respiration_rate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Observable_qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Respiratory_paralysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Respiratory_paralysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Paralysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rewarm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rewarm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Risk_Factor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Risk_Factor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rocky_mountian_spotted_fever -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rocky_mountian_spotted_fever">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Tick_bites"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rub_tissue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rub_tissue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Avoid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Scorpion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Scorpion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Scorpion_Bites -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Scorpion_Bites">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Envenomation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Shivering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Shivering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Observable_qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Shock -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Shock">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Ill"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Skin_color -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Skin_color">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Observable_qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Slurred_speech -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Slurred_speech">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Mental_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Small_child -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Small_child">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Age"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Snake -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Snake">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Snake_Bites -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Snake_Bites">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Envenomation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Spider -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Spider">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Spider_Bites -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Spider_Bites">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Envenomation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Splint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Splint">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Swelling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Swelling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Observable_qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Tachycardia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Tachycardia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Pulse"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Throw_buoyant_object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Throw_buoyant_object">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rescue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Tick_bites -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Tick_bites">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Envenomation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Transport_to_recompression_facility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Transport_to_recompression_facility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Recompression"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Trouble_moving -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Trouble_moving">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Mobility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Ulcer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Ulcer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Observable_qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Unconcious -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Unconcious">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Mental_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Unresponsive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Unresponsive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Mental_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Vomiting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Vomiting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Observable_qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Warm_water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Warm_water">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rewarm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Water_immersion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Water_immersion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Environmental_Factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Weak -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Weak">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Physical_fitness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Wind_level -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Wind_level">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Environmental_Factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Apply_cool_packs/wet_towels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Apply_cool_packs/wet_towels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cool_down"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Extremely_high_(40_C) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Extremely_high_(40_C)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Body_Temperature"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
