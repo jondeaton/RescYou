@@ -13,11 +13,36 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#requires -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#requires"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#ACE_Bandage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#ACE_Bandage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Bandage_Material"/>
+    </owl:Class>
     
 
 
@@ -41,6 +66,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Administer_antivenin">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#requires"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Antivenin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -49,6 +80,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Administer_oxygen">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#requires"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Oxygen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -131,10 +168,60 @@
     
 
 
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Antivenin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Antivenin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Fluid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Apply_Bandage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Apply_Bandage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#requires"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Bandage_Material"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Apply_Splint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Apply_Splint">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Apply_vinegar -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Apply_vinegar">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#requires"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Vinegar"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Apply_warm_water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Apply_warm_water">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Contact_with_warm_objects"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#requires"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Warm_water"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -169,10 +256,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Bandage -->
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Bandage_Material -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Bandage">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Bandage_Material">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Material"/>
     </owl:Class>
     
 
@@ -237,6 +324,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#CPR">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#requires"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Other_person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -273,10 +366,34 @@
     
 
 
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cloth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cloth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Bandage_Material"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cold -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cold">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Air_temperature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cold_Object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cold_Object">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cold_Pack -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cold_Pack">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cold_Object"/>
     </owl:Class>
     
 
@@ -289,10 +406,25 @@
     
 
 
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cold_water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cold_water">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cold_Object"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Water"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Contact_with_warm_objects -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Contact_with_warm_objects">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rewarm"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#requires"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Warm_Object"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -425,6 +557,20 @@
     
 
 
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Enter_Gamow_bag -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Enter_Gamow_bag">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Recompression"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#requires"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Other_person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Envenomation -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Envenomation">
@@ -449,10 +595,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Extra_Clothing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Extra_Clothing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Bandage_Material"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Extreme_weakness -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Extreme_weakness">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Mobility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Fan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Fan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Material"/>
     </owl:Class>
     
 
@@ -477,6 +639,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Fit">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Physical_fitness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Fluid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Fluid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Material"/>
     </owl:Class>
     
 
@@ -508,7 +678,7 @@
     <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Gamow_bag -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Gamow_bag">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Recompression"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Material"/>
     </owl:Class>
     
 
@@ -521,10 +691,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Gently -->
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Gatorade -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Gently">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rewarm"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Gatorade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hydrating_Fluid"/>
     </owl:Class>
     
 
@@ -633,10 +803,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hot_pack -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hot_pack">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Warm_Object"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Humidity_level -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Humidity_level">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Environmental_Factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hydrating_Fluid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hydrating_Fluid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Fluid"/>
     </owl:Class>
     
 
@@ -839,6 +1025,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Material -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Material"/>
+    
+
+
     <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Medication -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Medication">
@@ -917,6 +1109,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Other_person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Other_person">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Oxygen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Oxygen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Material"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Pain -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Pain">
@@ -949,11 +1157,25 @@
     
 
 
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Patient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Patient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Person"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Perforated_tympanic_membrane -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Perforated_tympanic_membrane">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Diving"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Person"/>
     
 
 
@@ -969,6 +1191,15 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Pit_Vipers">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Snake"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Potable_water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Potable_water">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hydrating_Fluid"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Water"/>
     </owl:Class>
     
 
@@ -993,6 +1224,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Recompression">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Recompression_facility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Recompression_facility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Material"/>
     </owl:Class>
     
 
@@ -1182,7 +1421,7 @@
     <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Splint -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Splint">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Material"/>
     </owl:Class>
     
 
@@ -1199,6 +1438,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Tachycardia">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Pulse"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Thermometer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Thermometer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Material"/>
     </owl:Class>
     
 
@@ -1223,6 +1470,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Transport_to_recompression_facility">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Recompression"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#requires"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Recompression_facility"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1265,6 +1518,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Vinegar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Vinegar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Fluid"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Vomiting -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Vomiting">
@@ -1273,10 +1534,27 @@
     
 
 
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Warm_Object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Warm_Object">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Material"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Warm_water -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Warm_water">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rewarm"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Warm_Object"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Water">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Fluid"/>
     </owl:Class>
     
 
