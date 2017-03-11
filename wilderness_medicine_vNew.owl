@@ -22,6 +22,9 @@
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Recompression_facility"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#AdministerOxygen"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Gatorade"/>
     </Declaration>
     <Declaration>
@@ -46,6 +49,9 @@
         <DataProperty IRI="#hasGender"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#DoNotAllowStimulantUse01"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Avoid"/>
     </Declaration>
     <Declaration>
@@ -65,6 +71,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Insomnia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatientCare"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Painless_rash"/>
@@ -94,6 +103,9 @@
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Altitude_sickness"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#DoNotAllowStimulantUse"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Local_Cold"/>
     </Declaration>
     <Declaration>
@@ -112,6 +124,9 @@
         <DataProperty IRI="#hasVenom"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#CoverWithDryClothing"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Crackles_in_at_least_one_lung"/>
     </Declaration>
     <Declaration>
@@ -128,6 +143,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Slurred_speech"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RemoveWetClothing01"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HandlePatientGently"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Medication"/>
@@ -286,6 +307,9 @@
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Vomiting"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#RemoveWetClothing"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rescue"/>
     </Declaration>
     <Declaration>
@@ -299,6 +323,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#RespondPain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CoverWithDryClothing01"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Apply_vinegar"/>
@@ -344,6 +371,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cottonmouths"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DoNotMassageExtremities01"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Burn01"/>
@@ -400,7 +430,7 @@
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Paralysis_of_eye_movement"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Remove_wet_clothing"/>
+        <Class IRI="#AvoidPatientWalking"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cold_Object"/>
@@ -413,6 +443,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Nutrition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#RemoveFromCold"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Normal_Respiration"/>
@@ -430,7 +463,13 @@
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Unconcious"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#AdministerHumidifyOxygen"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hypothermia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AvoidPatientWalking01"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Heat_exhaustion"/>
@@ -452,6 +491,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Heat_Stroke"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HumidifyOxygen01"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Elderly"/>
@@ -530,6 +572,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#CanLeadTo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RemoveFromCold01"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Apply_Bandage"/>
@@ -658,9 +703,6 @@
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Blotching"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Remove_from_cold"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#isBittenBy"/>
     </Declaration>
     <Declaration>
@@ -674,6 +716,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Bradypnea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DoNotMassageExtremities"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Risk_Factor"/>
@@ -692,6 +737,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hymenoptera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreventFurtherHeatLoss"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#High_humidity"/>
@@ -713,6 +761,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Adult"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PreventFurtherHeatLoss"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Heat_related"/>
@@ -757,6 +808,9 @@
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Give_fluids"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#AdministerHighFlowOxygen"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Extremely_high_(40_C)"/>
     </Declaration>
     <Declaration>
@@ -796,9 +850,6 @@
         <NamedIndividual IRI="#Adult04"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Administer_oxygen"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Lay_down"/>
     </Declaration>
     <Declaration>
@@ -806,6 +857,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Fresh_water_or_wet_sand"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HandlePatientGently01"/>
     </Declaration>
     <Declaration>
         <Class IRI="#BlueLip"/>
@@ -839,6 +893,14 @@
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Mobility"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#AdministerHighFlowOxygen"/>
+        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#AdministerOxygen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AdministerHumidifyOxygen"/>
+        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#AdministerOxygen"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#AdultPatient"/>
         <Class IRI="#AgeType"/>
     </SubClassOf>
@@ -863,6 +925,10 @@
             <ObjectProperty IRI="#isTreatWith"/>
             <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#CPR"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AvoidPatientWalking"/>
+        <Class IRI="#PatientCare"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BlueFinger"/>
@@ -892,12 +958,24 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#CoverWithDryClothing"/>
+        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rewarm"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#CynoticColor"/>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Skin_color"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Diabete"/>
         <Class IRI="#MedicalCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DoNotAllowStimulantUse"/>
+        <Class IRI="#PatientCare"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DoNotMassageExtremities"/>
+        <Class IRI="#PatientCare"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Extremity"/>
@@ -928,6 +1006,10 @@
             <ObjectProperty IRI="#isPredisposedTo"/>
             <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hypothermia"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HandlePatientGently"/>
+        <Class IRI="#PatientCare"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HeadInjury"/>
@@ -1041,6 +1123,10 @@
         <Class IRI="#Motion"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#PatientCare"/>
+        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#PediatricPatient"/>
         <Class IRI="#AgeType"/>
     </SubClassOf>
@@ -1054,6 +1140,10 @@
     <SubClassOf>
         <Class IRI="#PinkColor"/>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Skin_color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreventFurtherHeatLoss"/>
+        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rewarm"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RedColor"/>
@@ -1131,6 +1221,17 @@
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Risk_Factor"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#AdministerOxygen"/>
+        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#AdministerOxygen"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#requires"/>
+            <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Oxygen"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Administer_antivenin"/>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
     </SubClassOf>
@@ -1139,17 +1240,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#requires"/>
             <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Antivenin"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Administer_oxygen"/>
-        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Treatment"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Administer_oxygen"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#requires"/>
-            <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Oxygen"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1818,16 +1908,16 @@
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Skin_color"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Remove_from_cold"/>
+        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#RemoveFromCold"/>
+        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rewarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#RemoveWetClothing"/>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rewarm"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Remove_from_heat"/>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cool_down"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Remove_wet_clothing"/>
-        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rewarm"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rescue"/>
@@ -2080,6 +2170,10 @@
         <NamedIndividual IRI="#Adult06"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#AvoidPatientWalking"/>
+        <NamedIndividual IRI="#AvoidPatientWalking01"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Burn"/>
         <NamedIndividual IRI="#Burn01"/>
     </ClassAssertion>
@@ -2088,8 +2182,20 @@
         <NamedIndividual IRI="#CPR01"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#CoverWithDryClothing"/>
+        <NamedIndividual IRI="#CoverWithDryClothing01"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Diabete"/>
         <NamedIndividual IRI="#Diabete01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DoNotAllowStimulantUse"/>
+        <NamedIndividual IRI="#DoNotAllowStimulantUse01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DoNotMassageExtremities"/>
+        <NamedIndividual IRI="#DoNotMassageExtremities01"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Environmental_Factor"/>
@@ -2108,8 +2214,28 @@
         <NamedIndividual IRI="#Geriatric01"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#HandlePatientGently"/>
+        <NamedIndividual IRI="#HandlePatientGently01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AdministerHumidifyOxygen"/>
+        <NamedIndividual IRI="#HumidifyOxygen01"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Patient"/>
         <NamedIndividual IRI="#Pediatric01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PreventFurtherHeatLoss"/>
+        <NamedIndividual IRI="#PreventFurtherHeatLoss"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#RemoveFromCold"/>
+        <NamedIndividual IRI="#RemoveFromCold01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#RemoveWetClothing"/>
+        <NamedIndividual IRI="#RemoveWetClothing01"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Shock"/>
@@ -2320,6 +2446,25 @@
     <DLSafeRule>
         <Body>
             <ClassAtom>
+                <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hypothermia"/>
+                <Variable IRI="urn:swrl#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#AdministerHumidifyOxygen"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isTreatWith"/>
+                <Variable IRI="urn:swrl#x"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
                 <Class IRI="#AdultPatient"/>
                 <Variable IRI="urn:swrl#x"/>
             </ClassAtom>
@@ -2485,6 +2630,25 @@
     <DLSafeRule>
         <Body>
             <ClassAtom>
+                <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hypothermia"/>
+                <Variable IRI="urn:swrl#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#AvoidPatientWalking"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isTreatWith"/>
+                <Variable IRI="urn:swrl#x"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
                 <Class IRI="#BlueFinger"/>
                 <Variable IRI="urn:swrl#x"/>
             </ClassAtom>
@@ -2498,6 +2662,63 @@
                 <Class IRI="#CynoticColor"/>
                 <Variable IRI="urn:swrl#x"/>
             </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hypothermia"/>
+                <Variable IRI="urn:swrl#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#DoNotAllowStimulantUse"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isTreatWith"/>
+                <Variable IRI="urn:swrl#x"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hypothermia"/>
+                <Variable IRI="urn:swrl#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#DoNotMassageExtremities"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isTreatWith"/>
+                <Variable IRI="urn:swrl#x"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hypothermia"/>
+                <Variable IRI="urn:swrl#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#HandlePatientGently"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isTreatWith"/>
+                <Variable IRI="urn:swrl#x"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ObjectPropertyAtom>
         </Head>
     </DLSafeRule>
     <DLSafeRule>
@@ -2543,6 +2764,25 @@
                 <Class IRI="#FastDeveloping"/>
                 <Variable IRI="urn:swrl#x"/>
             </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hypothermia"/>
+                <Variable IRI="urn:swrl#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#PreventFurtherHeatLoss"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isTreatWith"/>
+                <Variable IRI="urn:swrl#x"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ObjectPropertyAtom>
         </Head>
     </DLSafeRule>
     <DLSafeRule>
@@ -2684,6 +2924,44 @@
                 <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cold"/>
                 <Variable IRI="urn:swrl#x"/>
             </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hypothermia"/>
+                <Variable IRI="urn:swrl#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#RemoveFromCold"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isTreatWith"/>
+                <Variable IRI="urn:swrl#x"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hypothermia"/>
+                <Variable IRI="urn:swrl#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#RemoveWetClothing"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isTreatWith"/>
+                <Variable IRI="urn:swrl#x"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ObjectPropertyAtom>
         </Head>
     </DLSafeRule>
     <DLSafeRule>
@@ -3060,8 +3338,33 @@
     </DLSafeRule>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AvoidPatientWalking</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">prevent damage to feet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#CanLeadTo</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Injury canLeadto other injury</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CoverWithDryClothing</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">place dry blankets under and over the patient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CoverWithDryClothing01</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">place dry blankets under and over the patient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DoNotAllowStimulantUse</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stimulants(caffeine)/smoke/chew tobacco/ETOH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DoNotMassageExtremities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stressing heart and lung</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
