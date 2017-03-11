@@ -40,6 +40,9 @@
         <Class IRI="#SexType"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#CPR01"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#hasGender"/>
     </Declaration>
     <Declaration>
@@ -682,6 +685,9 @@
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#High"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Adult06"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Gangrene"/>
     </Declaration>
     <Declaration>
@@ -727,7 +733,13 @@
         <Class IRI="#HeadInjury"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#AbsenceReflex"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Unresponsive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adult05"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Motion"/>
@@ -781,6 +793,9 @@
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rewarm"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Adult04"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Administer_oxygen"/>
     </Declaration>
     <Declaration>
@@ -820,6 +835,10 @@
         <DataProperty IRI="#hasSeverity"/>
     </Declaration>
     <SubClassOf>
+        <Class IRI="#AbsenceReflex"/>
+        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Mobility"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#AdultPatient"/>
         <Class IRI="#AgeType"/>
     </SubClassOf>
@@ -830,6 +849,20 @@
     <SubClassOf>
         <Class IRI="#ApparentDeath"/>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Injury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ApparentDeath"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#CanLeadTo"/>
+            <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Cardiac_arrest"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ApparentDeath"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTreatWith"/>
+            <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#CPR"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BlueFinger"/>
@@ -2025,8 +2058,34 @@
         <NamedIndividual IRI="#Adult01"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Patient"/>
+        <NamedIndividual IRI="#Adult03"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Patient"/>
+        <NamedIndividual IRI="#Adult04"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#ParadoxicalUndressing"/>
+            <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Patient"/>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#Adult05"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#AbsenceReflex"/>
+            <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Patient"/>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#Adult06"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Burn"/>
         <NamedIndividual IRI="#Burn01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#CPR"/>
+        <NamedIndividual IRI="#CPR01"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Diabete"/>
@@ -2108,6 +2167,26 @@
         <DataProperty IRI="#hasCoreTemperature"/>
         <NamedIndividual IRI="#Adult03"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">80</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCoreTemperature"/>
+        <NamedIndividual IRI="#Adult04"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCoreTemperature"/>
+        <NamedIndividual IRI="#Adult05"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#Adult06"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCoreTemperature"/>
+        <NamedIndividual IRI="#Adult06"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#hasEnvironmentTemp"/>
@@ -2387,6 +2466,25 @@
     <DLSafeRule>
         <Body>
             <ClassAtom>
+                <Class IRI="#ApparentDeath"/>
+                <Variable IRI="urn:swrl#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#CPR"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isTreatWith"/>
+                <Variable IRI="urn:swrl#x"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
                 <Class IRI="#BlueFinger"/>
                 <Variable IRI="urn:swrl#x"/>
             </ClassAtom>
@@ -2591,7 +2689,31 @@
     <DLSafeRule>
         <Body>
             <ClassAtom>
-                <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Patient"/>
+                <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hypothermia"/>
+                <Variable IRI="urn:swrl#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <ObjectUnionOf>
+                    <Class IRI="#AbsenceReflex"/>
+                    <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Bradycardia"/>
+                    <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hypotension"/>
+                    <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Unconcious"/>
+                    <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Unresponsive"/>
+                </ObjectUnionOf>
+                <Variable IRI="urn:swrl#x"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#SevereHypothermia"/>
+                <Variable IRI="urn:swrl#x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hypothermia"/>
                 <Variable IRI="urn:swrl#x"/>
             </ClassAtom>
             <ClassAtom>
@@ -2760,6 +2882,29 @@
         <Head>
             <ClassAtom>
                 <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Hypothermia"/>
+                <Variable IRI="urn:swrl#x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Patient"/>
+                <Variable IRI="urn:swrl#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasCoreTemperature"/>
+                <Variable IRI="urn:swrl#x"/>
+                <Variable IRI="urn:swrl#temp"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThanOrEqual">
+                <Variable IRI="urn:swrl#temp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">75</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#ApparentDeath"/>
                 <Variable IRI="urn:swrl#x"/>
             </ClassAtom>
         </Head>
