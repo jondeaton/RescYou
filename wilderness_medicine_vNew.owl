@@ -268,6 +268,9 @@
         <Class IRI="#PinkColor"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#ApparentDeath"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Rescue"/>
     </Declaration>
     <Declaration>
@@ -344,6 +347,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Perforated_tympanic_membrane"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEnvironmentTemp"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Air_embolism"/>
@@ -488,6 +494,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Recompression"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Environment01"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Physical_fitness"/>
@@ -748,6 +757,10 @@
     <SubClassOf>
         <Class IRI="#AgeType"/>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ApparentDeath"/>
+        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Injury"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BlueFinger"/>
@@ -1212,6 +1225,13 @@
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Environmental_Factor"/>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Risk_Factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Environmental_Factor"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasEnvironmentTemp"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Extra_Clothing"/>
@@ -1815,6 +1835,10 @@
         <NamedIndividual IRI="#Adult01"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Environmental_Factor"/>
+        <NamedIndividual IRI="#Environment01"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Patient"/>
         <NamedIndividual IRI="#Geriatric01"/>
     </ClassAssertion>
@@ -1851,6 +1875,11 @@
         <DataProperty IRI="#hasRespiration"/>
         <NamedIndividual IRI="#Adult01"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnvironmentTemp"/>
+        <NamedIndividual IRI="#Environment01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">70</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#hasANO"/>
@@ -1910,6 +1939,10 @@
         <DataProperty IRI="#hasVital"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
+        <DataProperty IRI="#hasEnvironmentTemp"/>
+        <DataProperty IRI="#hasFeature"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
         <DataProperty IRI="#hasGender"/>
         <DataProperty IRI="http://www.semanticweb.org/julien/ontologies/2017/1/untitled-ontology-8#Demographic"/>
     </SubDataPropertyOf>
@@ -1952,6 +1985,10 @@
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#hasAge"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasEnvironmentTemp"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
@@ -2492,6 +2529,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#hasDiastolicBP</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mmHg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasEnvironmentTemp</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">in F</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>

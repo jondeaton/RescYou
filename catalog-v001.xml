@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1489199644806" name="duplicate:http://www.semanticweb.org/antonio/ontologies/2017/1/untitled-ontology-11" uri="wilderness_medicine.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1489199644806" name="duplicate:http://www.semanticweb.org/antonio/ontologies/2017/1/untitled-ontology-11" uri="wilderness_medicine_vNew.owl"/>
+    </group>
+</catalog>
